@@ -1,0 +1,366 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+  
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+	
+	        <ul class="navbar-nav">
+	            <li><i class="material-icons movie-icon">movie</i>
+		        <a class="navbar-brand" href="#">MovieCruiser</a></li>
+		    </ul>
+		
+		    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+		
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+		
+	            <ul class="navbar-nav ml-auto">
+	
+		            <li class="nav-item active">
+			            <a class="nav-link" href="movie-list.html">Movies</a>
+			        </li>
+			
+			        <li class="nav-item active">
+			            <a class="nav-link" href="login.html">Login</a>
+			        </li>
+				
+			        <li class="nav-item active">
+			            <a class="nav-link" href="signup.html">Signup</a>
+			        </li>
+				
+		        </ul>
+			
+		    </div>
+		
+	    </nav>
+	</header>	
+	
+	
+	<div class="jumbotron jumbotron-fluid">
+	    <div class="container">
+		    <marquee behavior="scroll" direction="left" scrollamount="10"><h1 class="text-danger">Touch the picture to know the movie details</h1></marquee>
+		    
+	        <h1 class="navbar-brand">Find Movie</h1>
+			
+                <div class="input-group">
+                    <div class="input-group-prepend">
+                        <span class="input-group-text"><i class="material-icons film-icon text-dark">local_movies</i></span>
+                    </div>
+	                <input class="form-control form-control-lg" type="text" placeholder="Search Movie" name="search">
+	            </div>
+        </div>  		
+    </div>
+	
+	<div class="container-fluid">
+	
+	    <div class="row">
+	
+	        <div class="col-lg-3 col-md-6 col-sm-12">
+			
+			    <div class="flip-card m-4">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+                            <img src="https://images-na.ssl-images-amazon.com/images/I/617U6acf8nL._SY606_.jpg" alt="Card image">
+                        </div>
+                        <div class="flip-card-back">
+                            
+				            <h1 class="text-dark shadow-text m-3">Avatar</h1>
+							<h6>Rating
+							    <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span></h6>
+								
+						    <h4 class="text-dark">Genre:Science Fiction</h4>
+							
+							<div class="container mt-5">
+							
+							    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Avatar is a 2009 American epic science fiction film directed, 
+								    written, produced, and co-edited by James Cameron and stars Sam Worthington, 
+								    Zoe Saldana, Stephen Lang, Michelle Rodriguez, and Sigourney Weaver.">
+									<h3><i class="material-icons text-info">info</i>About Movie</h3>
+								</a>
+        
+                            </div>
+								
+				            <div class="d-flex justify-content-between mt-5">
+				
+				                
+					            <h4 class="text-danger">BoxOffice: $2,787,965,087</h4>
+				                <div><i class="material-icons teaser-icon">videocam</i>
+					                <span class="badge badge-pill badge-info">Teaser</span>
+						        </div>
+				    
+				            </div>
+								
+						    <iframe  src="demo-iframe.html" name="iframe_avatar"></iframe>
+                           
+                            <h5><i class="material-icons text-danger">forward</i><a href="iframe-login-validation.html" target="iframe_avatar">Seat Availability</a></h5>
+							
+				            <div class="d-flex justify-content-center mt-5 mb-3 fixed-bottom">
+					            <a href="login-validation.html">
+                                    <button type="button" class="btn-primary custom-btn">
+						                <i class="material-icons">star</i>
+						                Add to Favorites
+						            </button>
+						        </a>
+	                        </div>
+							
+                             
+			
+                        </div>
+                    </div>
+	            </div>
+            </div>
+			
+	        <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="flip-card m-4">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+	                        <img src="http://cdn.shopify.com/s/files/1/1057/1890/products/avengers_grande.jpg?v=1448156906" alt="Card image">
+                        </div>
+                        <div class="flip-card-back">
+		    
+                            <h1 class="text-dark shadow-text m-3">The Avengers</h1>
+							<h6>Rating
+							    <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span></h6>
+							
+						    <h4 class="text-dark">Genre:Superhero</h4>
+							
+							<div class="container mt-5">
+							
+							    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Marvel's The Avengers, is a 2012 American superhero film produced by Marvel Studios 
+								and distributed by Walt Disney Studios Motion Pictures 
+								and film was written and directed by Joss Whedon"><h3><i class="material-icons text-info">info</i>About Movie</h3></a>
+        
+                            </div>
+					            
+				            <div class="d-flex justify-content-start mt-5">
+				                <h4 class="text-danger">BoxOffice: $1,518,812,988</h4>
+				            </div>
+				            
+							<iframe  src="demo-iframe.html" name="iframe_avengers"></iframe>
+
+                            <h5><i class="material-icons text-danger">forward</i><a href="iframe-login-validation.html" target="iframe_avengers">Seat Availability</a></h5>
+					
+				            <div class="d-flex justify-content-center mt-5 mb-3 fixed-bottom">
+                                <a href="login-validation.html">
+                                    <button type="button" class="btn-primary custom-btn">
+						                <i class="material-icons">star</i>
+						                Add to Favorites
+						            </button>
+						        </a>
+	                        </div>
+			
+                        </div>
+                    </div>
+	            </div>
+		    </div>
+			
+		    <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="flip-card m-4">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+	                        <img src="http://www.cornel1801.com/1/t/TITANIC/12-posters-pictures-quotes/Titanic-poster-From-the-Director-of-Aliens-T2-and-True-Lies.jpg" alt="Card image">
+                        </div>
+                        <div class="flip-card-back">
+		    
+				            <h1 class="text-dark shadow-text m-3">Titanic</h1>
+							<h6>Rating
+							    <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span></h6>
+							
+						    <h4 class="text-dark">Genre:Romance</h4>
+							
+							<div class="container mt-5">
+							
+							    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Titanic is a 1997 American epic romance and disaster film directed, 
+								written, co-produced, and co-edited by James Cameron 
+								and stars Leonardo DiCaprio and Kate Winslet."><h3><i class="material-icons text-info">info</i>About Movie</h3></a>
+        
+                            </div>
+				    
+					        <div class="d-flex justify-content-start mt-5">
+					            <h4 class="text-danger">BoxOffice: $2,187,463,944</h4>
+				            </div>
+				           
+					        <iframe  src="demo-iframe.html" name="iframe_titanic"></iframe>
+
+                            <h5><i class="material-icons text-danger">forward</i><a href="iframe-login-validation.html" target="iframe_titanic">Seat Availability</a></h5>
+				            
+				            <div class="d-flex justify-content-center mt-5 mb-3 fixed-bottom">
+                                <a href="login-validation.html">
+                                    <button type="button" class="btn-primary custom-btn">
+						                <i class="material-icons">star</i>
+						                Add to Favorites
+						            </button>
+						        </a>
+	                        </div>
+			
+                        </div>
+                    </div>
+	            </div>
+	        </div>
+			
+            <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="flip-card m-4">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+	                        <img src="https://runpee.com/wp-content/uploads/2015/06/jurrasic-world.jpg" alt="Card image">
+                    </div>
+                        <div class="flip-card-back">
+				
+				            <h1 class="text-dark shadow-text m-3">Jurassic World</h1>
+							<h6>Rating
+							    <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span></h6>
+							<h4 class="text-dark">Genre:Science Fiction</h4>
+
+                            <div class="container mt-5">
+							
+							    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Jurassic World is a 2015 American science fiction adventure film directed by Colin Trevorrow
+								and stars Chris Pratt, Bryce Dallas Howard, Vincent D'Onofrio, 
+								Ty Simpkins, Nick Robinson, Omar Sy, BD Wong, and Irrfan Khan."><h3><i class="material-icons text-info">info</i>About Movie</h3></a>
+        
+                            </div>							
+					
+				            <div class="d-flex justify-content-between mt-5">
+				
+				                <h4 class="text-danger">BoxOffice: $1,671,713,208</h4>
+				                <div><i class="material-icons teaser-icon">videocam</i>
+					                <span class="badge badge-pill badge-info">Teaser</span>
+						        </div>
+				    
+				            </div>
+							
+							<iframe  src="demo-iframe.html" name="iframe_jurassic"></iframe>
+
+                            <h5><i class="material-icons text-danger">forward</i><a href="iframe-login-validation.html" target="iframe_jurassic">Seat Availability</a></h5>
+					
+				            <div class="d-flex justify-content-center mt-5 mb-3 fixed-bottom">
+                                <a href="login-validation.html">
+                                   <button type="button" class="btn-primary custom-btn">
+						                <i class="material-icons">star</i>
+						                Add to Favorites
+						            </button>
+						        </a>
+	                        </div>
+			            </div>
+                    </div>
+	            </div>
+            </div>	
+			
+	        <div class="col-lg-3 col-md-6 col-sm-12">
+                <div class="flip-card m-4">
+                    <div class="flip-card-inner">
+                        <div class="flip-card-front">
+	                        <img src="https://images-na.ssl-images-amazon.com/images/I/81Y6mIStmeL._SY606_.jpg" alt="Card image">
+                        </div>
+                        <div class="flip-card-back">
+		    
+                            <h1 class="text-dark shadow-text m-3">Avengers:EndGame</h1>
+							    <h6>Rating
+							    <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span></h6>
+							
+					        <h4 class="text-dark">Genre:Superhero</h4>
+							
+							<div class="container mt-5">
+							
+							    <a href="#" data-toggle="tooltip" data-placement="bottom" title="Avengers: Endgame is a 2019 American superhero film produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures 
+								and directed by Anthony and Joe Russo"><h3><i class="material-icons text-info">info</i>About Movie</h3></a>
+        
+                            </div>
+					
+				            <div class="d-flex justify-content-between mt-5">
+				
+					            <h4 class="text-danger">BoxOffice: $2,750,760,348</h4>
+				                <div><i class="material-icons teaser-icon">videocam</i>
+					                <span class="badge badge-pill badge-info">Teaser</span>
+						        </div>
+				    
+				            </div>
+							
+							<iframe src="demo-iframe.html" name="iframe_endgame"></iframe>
+                            
+                            <h5><i class="material-icons text-danger">forward</i><a href="iframe-login-validation.html" target="iframe_endgame">Seat Availability</a></h5>
+					 
+				            <div class="d-flex justify-content-center mt-5 mb-3 fixed-bottom">
+                                <a href="login-validation.html">
+                                    <button type="button" class="btn-primary custom-btn">
+						                <i class="material-icons">star</i>
+						                Add to Favorites
+						            </button>
+						        </a>
+	                        </div>
+			
+                        </div>
+                    </div>
+	            </div>
+            </div>
+	    </div>
+	</div>
+	
+	<footer>
+	
+	    <nav class="navbar navbar-expand-lg navbar-dark">
+		    <div class="container-fluid">
+		    <div class="d-flex justify-content-start">
+			
+	            <ul class="navbar-nav">
+	                <li class="nav-item">Copyright<i class="material-icons">copyright</i>2019.All rights reserved.<a href="#" class="nav-item">Terms of use privacy policy</a></li>
+		        </ul>
+			</div>
+			   <div class="d-flex justify-content-end nav-item">
+			        <div class="mr-2">Follow us on</div>
+                    <a href="#"><i class="fa fa-twitter material-icons mr-2"></i></a>  
+                    <a href="#"><i class="fa fa-linkedin material-icons mr-2"></i></a>  
+                    <a href="#"><i class="fa fa-facebook material-icons mr-2"></i></a> 
+                </div>
+		    </div>
+			</div>
+	    </nav>
+		
+	</footer>
+	
+	<script>
+        $(document).ready(function(){
+            $('[data-toggle="tooltip"]').tooltip();   
+        });
+    </script>
+	
+</body>
+
+</html>
